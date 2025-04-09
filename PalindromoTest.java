@@ -14,6 +14,7 @@ class PalindromoTest {
     @Test
     void deveRetornarTrueParaFrasesComplexas() {
         assertTrue(ValidadorPalindromo.ehPalindromo("Ame a ema"));
+        assertTrue(ValidadorPalindromo.ehPalindromo("Socorram-me subi no ônibus em Marrocos"));
         assertTrue(ValidadorPalindromo.ehPalindromo("A man, a plan, a canal, Panama!"));
     }
 
